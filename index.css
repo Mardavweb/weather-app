@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #56CCF2;
+}
+
+.full-search {
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bt {
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50%;
+    width : 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.my-city {
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.full-search button img{
+    width: 16px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-name {
+    color: white;
+    font-size: 50px;
+}
+
+.temp {
+    color: white;
+    font-size: 70px;
+}
+
+.humidity{
+     /* display: flex; */
+    justify-content: center; 
+}
+
+.wind-speed {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.humidity-wind {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.humidity-text {
+    color: white;
+}
+
+.wind-text {
+    color: white;
+}
