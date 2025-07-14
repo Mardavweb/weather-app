@@ -10,6 +10,9 @@ A simple and responsive weather app that fetches real-time weather data using th
 - 🌙 Clean and modern UI
 - 📱 Responsive design for desktop and mobile
 
+## 📸 Screenshot
+![Weather App Screenshot](screenshot.png)
+
 ## 🛠️ Tech Stack
 
 - HTML
